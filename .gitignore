@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Exports & models generated locally (keep placeholders)
+models/*.joblib
+models/*.onnx
+!models/.gitkeep
+exports/*.json
+exports/*.md
+exports/*.pdf
+!exports/.gitkeep
+data/*.csv
+!data/.gitkeep
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
